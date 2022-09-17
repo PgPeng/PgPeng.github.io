@@ -1,7 +1,176 @@
-h2{
-    padding-left: 100px;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-h1{
-    padding-top: 10px;
-    margin-top: 10px;
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*    上面是重置标签     */
+
+.box1 {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #f9f0e1;
+}
+
+.top {
+    width: 1200px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ef4d27;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+
+.main-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4e8ce;
+}
+
+.main-top > div {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.main-top > div:last-child span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-left: 2px;
+    color: #ddd;
+}
+
+.main-main {
+    width: 100%;
+    height: 800px;
+    background: url("./images/R-C2.jpg") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    border-top: 10px solid black;
+}
+.hero-whdsm {
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    bottom: -4px;
+    left: 0;
+}
+
+.hero-white55kai {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    right: 0;
+    left: 0;
+    bottom: -4px;
+    margin: 0 auto;
+}
+.hero-pdd {
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    bottom: -4px;
+    right: 0;
+}
+.main-main2{
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    background-color: #9d9d9d;
+}
+.main-main2 .content{
+    width: 1200px;
+    height: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+
+}
+.content>div{
+    padding-top: 30px;
+    width: 100%;
+    height: 100px;
+    font-size: 16px;
+    color: #5f6363;
+}
+.container{
+    width: 100%;
+    height: 480px;
+    background: url("./images/R-C1.jpg") no-repeat;
+    background-size: cover;
 }

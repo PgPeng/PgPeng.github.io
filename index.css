@@ -60,28 +60,37 @@ a {
     height: 100%;
     margin: 0 auto;
     background-color: #f9f0e1;
+    position: relative;
 }
 
 .top {
-    width: 1200px;
+    width: 100%;
     height: 80px;
     text-align: center;
     line-height: 80px;
     font-weight: bold;
     font-size: 40px;
     color: #ef4d27;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #f9f0e1;
 }
 
 .main {
     width: 100%;
     height: 100%;
     background-color: #eee;
+    position: relative;
 }
 
 .main-top {
     display: flex;
     justify-content: space-between;
     background-color: #f4e8ce;
+    position: sticky;
+    top: 80px;
+    z-index: 2;
 }
 
 .main-top > div {
@@ -109,6 +118,7 @@ a {
     position: relative;
     border-top: 10px solid black;
 }
+
 .hero-whdsm {
     width: 400px;
     height: 40px;
@@ -134,6 +144,7 @@ a {
     bottom: -4px;
     margin: 0 auto;
 }
+
 .hero-pdd {
     width: 400px;
     height: 40px;
@@ -145,13 +156,15 @@ a {
     bottom: -4px;
     right: 0;
 }
-.main-main2{
+
+.main-main2 {
     margin-top: 40px;
     width: 100%;
     height: 100%;
     background-color: #9d9d9d;
 }
-.main-main2 .content{
+
+.main-main2 .content {
     width: 1200px;
     height: 200px;
     font-size: 30px;
@@ -161,16 +174,78 @@ a {
     padding-top: 40px;
 
 }
-.content>div{
+
+.content > div {
     padding-top: 30px;
     width: 100%;
     height: 100px;
     font-size: 16px;
     color: #5f6363;
 }
-.container{
+
+.container {
     width: 100%;
     height: 480px;
     background: url("./images/R-C1.jpg") no-repeat;
     background-size: cover;
+}
+
+.main-main3 {
+    width: 100%;
+    height: 600px;
+    background-color: #0b5ed7;
+    margin-top: 20px;
+}
+
+.main3-l {
+    width: 800px;
+    height: 600px;
+    box-sizing: border-box;
+    background-color: #9d9d9d;
+    float: left;
+}
+
+.main3-l .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #140d8e;
+    padding: 0 0 20px 20px;
+
+}
+
+.main3-l a img {
+    width: 800px;
+    height: 544px;
+}
+
+.main3-r {
+    float: right;
+}
+
+.main3-r .r-top {
+    width: 400px;
+    height: 300px;
+    background-color: #0c4128;
+}
+
+.main3-r .r-bottom {
+    width: 400px;
+    height: 300px;
+    background-color: red;
+}
+
+.r-top div:first-child {
+    font-size: 20px;
+    padding: 0 20px 20px 0;
+    text-align: right;
+}
+
+.r-top div a img {
+    width: 400px;
+    height: 260px;
+}
+
+.r-bottom div a img {
+    width: 400px;
+    height: 300px;
 }
